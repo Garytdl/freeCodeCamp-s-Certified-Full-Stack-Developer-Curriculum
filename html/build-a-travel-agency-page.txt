@@ -1,0 +1,44 @@
+** start of index.html **
+
+<!DOCTYPE HTML>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Travel China</title>
+    <meta name='description' content='Travel Agency Page'>
+  </head>
+  <body>
+    <h1>Travel China</h1>
+    <p>China is a country with a rich mix of history, culture, and modern innovation. Travelers can explore ancient landmarks like the Great Wall and the Terracotta Army, experience vibrant cities such as Beijing, Shanghai, and Shenzhen, and enjoy stunning natural landscapes from Zhangjiajie’s mountains to Guilin’s rivers. The food is incredibly diverse, with each region offering unique flavors, and the deep cultural traditions, festivals, and art make every visit memorable.</p>
+    <h2>Packages</h2>
+    <p>Choose from curated trips that blend history, culture, and modern experiences:</p>
+    <ul>
+      <li><a href='https://www.freecodecamp.org/learn' target="_blank"'>Group Travels</a></li>
+      <li><a href='https://www.freecodecamp.org/learn' target="_blank">Private Tours</a></li>
+    </ul>
+    <h2>Top Itineraries</h2>
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt='Monumental figure of the Great Wall of China'>
+      </a>
+      <figcaption>Great Wall of China</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Beautiful landscape of Zhangjiajie">
+      </a>
+      <figcaption>Zhangjiajie</figcaption>
+    </figure>
+
+    <figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Lush vegetation around the Guilin rivers">
+      </a>
+      <figcaption>Guilin's Rivers</figcaption>
+    </figure>
+  </body>
+</html>
+
+** end of index.html **
+
