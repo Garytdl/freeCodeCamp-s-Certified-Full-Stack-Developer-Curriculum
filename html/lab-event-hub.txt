@@ -1,0 +1,56 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+                <li><a href='#upcoming-events'>Upcoming Events</a></li>
+                <li><a href='#past-events'>Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Tech Fair 2025 Showcases Student Innovation</h3>
+                <p>The annual Tech Fair is back this semester, highlighting creative projects from computer science, engineering, and design students. From AI-driven apps to sustainable hardware solutions, attendees will see how students are applying their skills to real-world challenges. Faculty and industry guests will also be present to provide feedback and networking opportunities.</p>
+                <p>Time: <time datetime='2025-10-10T14:00'>Friday, October 10, 2025 at 2:00 PM</time></p>
+            </article>
+            <article>
+                <h3>Wellness Week Encourages Balance and Community</h3>
+                <p>Campus Wellness Week invites students to explore resources for mental health, fitness, and relaxation. Daily activities include yoga in the quad, stress management workshops, and free healthy snack stations. Organizers hope to encourage students to take small steps toward long-term wellbeing while strengthening the campus community.</p>
+                <p>Time: <time datetime="2025-10-13T10:00">Monday, October 13, 2025 at 10:00 AM</time></p>
+            </article>
+        </section>
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <article>
+                <h3>Spring Hackathon 2025 Ignites Collaboration</h3>
+                <p>Earlier this year, students from across departments teamed up for a 24-hour coding challenge. The event featured problem-solving around sustainability, accessibility, and creative media. Judges praised the teamwork and innovative prototypes that came out of the competition.</p>
+                <p>Time: <time datetime="2025-03-15">Saturday, March 15, 2025</time></p>
+                <img src='https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg' alt='Students working hard on their hackathon  prototypes.'>
+            </article>
+            <article>
+                <h3>Cultural Fest 2025 Brings Global Traditions to Campus</h3>
+                <p>Students, faculty, and local community members gathered to celebrate global cultures through music, dance, food, and art. Highlights included live performances, international cuisine, and interactive workshops that encouraged cross-cultural exchange and learning.</p>
+                <p>Time: <time datetime="2025-04-23">Wednesday, April 23, 2025</time></p>
+                <img src='https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg' alt='Students viewing workshops of different cultures.'>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

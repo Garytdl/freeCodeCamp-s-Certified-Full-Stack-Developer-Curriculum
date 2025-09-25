@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+  <main>
+    <h1>How To Become A Better Climber</h1>
+    <p>To become a better climber, focus on building both strength and technique. Strengthen your core, fingers, and legs through targeted exercises, but also practice precise footwork, balance, and body positioning on the wall. Climb regularly, challenge yourself with harder routes, and observe experienced climbers to learn new strategies. Equally important is mental training—stay calm, plan your moves, and develop problem-solving skills for tricky routes. Consistency, patience, and reflecting on each climb will steadily improve your overall ability.</p>
+
+    <section>
+      <h2>Climbing Exercises</h2>
+      <p>On-the-wall climbing exercises help improve technique, strength, and endurance directly in climbing conditions. Simple drills like traversing sideways, doing controlled deadpoints, or practicing flagging and heel hooks build body awareness and precision. Repeating specific moves on overhangs or slabs strengthens fingers, core, and legs while improving balance. By focusing on controlled movements rather than just speed, these exercises make climbers more efficient and confident on real routes.</p>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/MSoKP919jxo" title="3 CRUCIAL Drills to Add to Your Warm-up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Finger Strength</h2>
+      <p>Finger strength is crucial for climbing because your grip supports your entire body on holds of all sizes. To build it, climbers use hangboards, campus boards, and grip trainers, gradually increasing intensity while avoiding overstrain. Strong fingers improve your ability to hold small edges, pinch grips, and slopers, allowing you to tackle harder routes and climb longer without fatigue. Consistent, controlled training helps prevent injuries while maximizing grip endurance and power.</p>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/XXrDQ8PCAmI" title="How To Build Finger Strength (SCIENCE EXPLAINED)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Core Tension</h2>
+      <p>Core tension is essential in climbing because it stabilizes your body, keeps your movements controlled, and allows you to efficiently transfer power from your legs to your arms. Maintaining a tight core helps you stay close to the wall, execute dynamic moves, and hold challenging positions without swinging or losing balance. Exercises like planks, leg raises, and hollow body holds strengthen core muscles, improving overall climbing efficiency and making even difficult routes feel more manageable.</p>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/MfOMBr4wB30" title="The Reason You Can&#39;t Hold Body Tension" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
