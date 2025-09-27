@@ -1,0 +1,30 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>Movie Review: Free Solo</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Free_Solo.png" alt="Alex Honnold free soloing El Capitan">
+        <p>Free Solo is a 2018 documentary film that follows rock climber Alex Honnold as he prepares for and executes the first-ever free solo climb of El Capitan in Yosemite National Park, a 3,200-foot vertical rock face without ropes or safety gear.</p>
+        <p><strong>Movie Rating:</strong><span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐☆☆</span>(8.1/10)<p>
+        <h2>Cast Members</h2>
+        <ul>
+            <li><strong>Alex Honnold</strong> as self</li>
+            <li><strong>Tommy Caldwell</strong> as self</li>
+            <li><strong>Jimmy Chin</strong> as self</li>
+            <li><strong>Cheyne Lempe</strong> as self</li>
+        </ul>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
