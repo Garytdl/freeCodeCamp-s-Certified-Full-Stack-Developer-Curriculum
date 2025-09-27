@@ -1,0 +1,64 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Silent Algorithm</td>
+        <td>Dana K. Matthews</td>
+        <td>Science Fiction</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Echoes of Tomorrow</td>
+        <td>Luis Ortega</td>
+        <td>Dystopian Fiction</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Paths of Knowledge</td>
+        <td>Priya Desai</td>
+        <td>Non-Fiction / Education</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Whispers in the Library</td>
+        <td>Hannah Cole</td>
+        <td>Mystery / Thriller</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Journey Through the Stars</td>
+        <td>Marcus Bennett</td>
+        <td>Adventure / Fantasy</td>
+        <td>2022</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+
