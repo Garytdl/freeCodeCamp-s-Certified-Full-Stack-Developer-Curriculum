@@ -1,0 +1,53 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Climbing Experience to Grade</h1>
+    <p id="description">This survey aims to find correlation between climbing experience to climbing grade specifically for bouldering</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <input required type="text" id="name" name="name" placeholder="Ex. John Doe">
+
+      <label id="email-label" for="email">Email:</label>
+      <input required type="email" id="email" name="email" placeholder="example@email.com">
+      <br><br>
+
+      <label id="number-label" for="duration">Years Climbed:</label>
+      <input required type="number" id="number" name="duration" min="0" max="60" placeholder="3">
+      <label for="dropdown">Max Grade:</label>
+      <select id="dropdown">
+        <option value="1">V0-V2</option>
+        <option value="4">V3-V5</option>
+        <option value="7">V6-V8</option>
+        <option value="10">V9-V11</option>
+        <option value="12+">V12+</option>
+      </select>
+      <br><br>
+      <label for="favorite-style">Favorite Style (Select 1):</label>
+      <input type="radio" name="slab" value="slab">Slab</input>
+      <input type="radio" name="slab" value="overhang">Overhang</input>
+      <input type="radio" name="slab" value="technical-vert">Technical Vert</input>
+      <br><br>
+
+      <label for="weakness">Weakness:</label><br>
+      <input type="checkbox" value="finger-strength">Finger Strength</input>
+      <input type="checkbox" value="footwork">Footwork </input>
+      <input type="checkbox" value="route-reading">Route Reading </input>
+      <br><br>
+      
+      <label id="comments" for="comments">Additional Comments</label><br>
+      <textarea col="30" rows="5"></textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
