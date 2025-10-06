@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body id="main">
+<body>
     <h1>Before Bed To Do List</h1>
     <ul class="todo-list">
         <li>
@@ -47,6 +47,7 @@
 </body>
 
 </html>
+
 
 ** end of index.html **
 
@@ -90,6 +91,9 @@ a:active{
 
 .todo-list {
   list-style-type: none;
+  /* Reset default UL left indent */
+  padding: 0px;
+  margin: 0px;
 }
 
 .todo-list>li{
@@ -104,7 +108,6 @@ a:active{
   list-style-position: inside;
   list-style-type: square;
 }
-
 
 
 ** end of styles.css **
