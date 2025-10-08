@@ -1,0 +1,137 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Crush the Crux Flyer</title>
+</head>
+
+<body>
+  <header>
+    <img class="image" src="https://touchstoneclimbing.com/the-post/wp-content/uploads/sites/30/2022/04/WEB_Touchstone_Pasadena_Pompermayer_3699.png" alt="people enjoying watching a climber"/>
+    <h1><span class="competition-name">Crush the Crux</span>
+Bouldering Competition</h1>
+    <p class="description">Crush the Crux is our annual Bouldering Competition open to UNCG Students and Kaplan Center members.</p>
+  </header>
+  <hr/>
+  <main>
+    <!-- <div class="card-container"> -->
+      <section class="features">
+        <h2>Competition Features:</h2>
+        <ul>
+          <li>Bouldering problems ranging from V0-V7.</li>
+          <li>3 Co-ed competition categories.</li>
+          <li>Awesome prizes for winners of each category.</li>
+        </ul>
+      </section>
+
+      <section class="rules">
+        <h2>Competition Rules</h2>
+        <ul>
+          <li>Climbers will have 2.5 hours to climb as many boulders as they can.</li>
+          <li>Each boulder will award points based on difficulty listed on the score sheet.</li>
+          <li>Each attempt on the same boulder deducts 5 point from it. (up to 50 points)</li>
+          <li>Top 5 boulders' points will be totaled for the final score.</li>
+        </ul>
+      </section>
+      <!-- </div> -->
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.image {
+  margin: 0px auto;
+  display: block;
+  max-width: 80%;
+  border-bottom: 5px solid #ffb71b;
+}
+
+body {
+  margin: 0px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(221, 221, 222);
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+}
+
+h1 {
+  margin-top: 2%;
+  font-family: arial, sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #ffb71b;
+  text-align: center;
+  margin: 0px auto;
+  width: 80%;
+}
+
+.competition-name {
+  color: #133268;
+  font-size: 1.2em;
+}
+
+.description {
+  font-size: 1.2em;
+  text-align: justify;
+  margin: 0px auto;
+  width: 80%;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
+  border: 3px solid #ffb71b;
+  border-radius: 1em;
+  padding: 10px;
+  width: 49.9%;
+
+  background-color: #133268;
+}
+
+.features h2,
+.rules h2 {
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: #ffb71b;
+}
+
+body ul{
+  list-style-type: none;
+  line-height: 1.5em;
+  padding: 0px;
+  margin-top: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  color: #ffb71b;
+}
+
+hr {
+  background-color: #133268;
+  height: 10px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+
+
+** end of styles.css **
+
