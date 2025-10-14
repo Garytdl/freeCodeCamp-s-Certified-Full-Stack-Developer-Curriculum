@@ -1,0 +1,162 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <h1>Job Application</h1>
+    <div class="container">
+        <form>
+            <label for="name">Full Name: </label>
+            <input type="text" id="name"/ required>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email"/ required> 
+            <label for="position">Position:</label>
+            <select id="position" required>
+                <option value="" disabled selected>Please select an open position</option> 
+                <option value="fullstack">Fullstack Developer</value>
+                <option value="devops">DevOps</value>
+                <option value="frontend">Front End Developer</value>
+                <option value="solution">Solution Architect</option>
+            </select>
+            <fieldset class="radio-group">
+                <legend>Availability</legend>
+                <input type="radio" id="full-time" value="full-time" name="availability"/>
+                <label for="full-time">Full-Time</label>
+                <input type="radio" id="part-time" value="part-time" name="availability"/>
+                <label for="part-time">Part-Time</label>
+                <input type="radio" id="internship" value="internship" name="availability"/>
+                <label for="internship">Internship</label>
+            </fieldset>
+            <label for="message">Additional Information</label>
+            <textarea id="message"></textarea>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+:root {
+  font-family: system-ui,sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: #FFDFEF;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #74138C;
+}
+
+.container{
+  display: block;
+  padding: 50px;
+  max-width: 80%;
+  margin: 0px auto;
+  background-color: #F8F1F1;
+  box-shadow: 2px 2px 2px lightgrey;
+  border-radius: 1rem;
+}
+
+:is(#name, #email, #position) {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="position"]
+ {
+  font-weight: bold;
+}
+
+legend {
+  font-weight:bold;
+}
+
+label[for="message"] {
+  font-weight: bold;
+  padding-top: 1rem;
+  display: block;
+}
+
+#message {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: pink;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color:green;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color:red;
+}
+
+button:hover {
+  background-color: #FFDFEF;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+    opacity: 0;
+}
+
+.radio-group label {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked {
+    border-color: #007BFF;
+    background-color: #007BFF;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.radio-group input[type="radio"]:checked + label {
+    border-color: #007BFF;
+    background-color: #007BFF;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input:first-of-type {
+  border-radius: 8px;
+}
+
+
+** end of styles.css **
+
